@@ -1,0 +1,221 @@
+\documentclass[margin,line]{res}
+%\usepackage{layout}
+
+%\setlength{\voffset}{0in}
+%\setlength{\headsep}{5pt}
+\usepackage{amssymb}
+\usepackage[bookmarks,bookmarksopen,bookmarksdepth=2]{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+\oddsidemargin -.6in
+\evensidemargin -.5in
+\textwidth=6.35in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{Fahim Tahmid Chowdhury \vspace*{.1in}}
+
+\begin{resume}
+
+\section{\sc Contact Information}
+\begin{tabular}{@{}p{2in}p{4in}}
+1819 W Pensacola St & {\it Cell:}  (+1) 786-406-2617 {\it Skype:}    fahim.tahmid.chowdhury\\            
+Apt\texttt{\#}C-2 & {\it E-mail:} \href{mailto:ftc17@my.fsu.edu}{\nolinkurl{ftc17@my.fsu.edu} } \\
+Tallahassee & {\it LinkedIn:} \url{www.linkedin.com/in/fahimtahmidchowdhury} \\
+FL 32304 & {\it Website:} \url{https://fahimcsebuet.github.io/website/} \\
+\end{tabular}
+
+\vspace*{-.1in}
+
+\section{\sc Objective}
+To satisfy my thirst for innovation and add values to the society while building up my career in research assisted by my engineering acumen
+
+\vspace*{-.1in}
+
+\section{\sc Current Employer}
+{\bf \href{http://www.cs.fsu.edu/}{Department of Computer Science, Florida State University}}, Tallahassee, Florida
+
+\vspace{-.4cm}
+\textbf{{\em Graduate Research Assistant}} \hfill {\bf August, 2017 - Till Date}\\
+Working in \textbf{\textit{\href{http://castl.cs.fsu.edu/doku.php/}{Computer Architecture and SysTems Research Lab (CASTL)}}} under the supervision of \textit{\href{https://www.cs.fsu.edu/~yuw/}{Professor Dr. Weikuan Yu}}
+
+\vspace*{-.1in}
+
+\section{\sc Research Interests}
+\begin{list2}
+\item \textbf{Computer Architecture:} File Systems and Storage, Memory Acceleration
+\item \textbf{Artificial Intelligence:} Machine Learning, Neural Networks and Deep Learning
+\item \textbf{Theoretical Computer Science:} Graph Theory, Drawing and Visualization
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Education}
+{\bf \href{http://www.fsu.edu}{Florida State University}}, Tallahassee, Florida\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] PhD, \href{http://www.cs.fsu.edu/}{Computer Science}, Currently studying, \textit{CGPA} \textbf{4.00}/4.00
+\end{list1}
+\vspace*{-.15in}
+{\bf \href{http://buet.ac.bd}{Bangladesh University of Engineering and Technology}}, Dhaka, Bangladesh\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Bachelor of Science, \href{http://cse.buet.ac.bd}{Computer Science and Engineering}, February 2013, \textit{CGPA} \textbf{3.54}/4.00
+\end{list1}
+\vspace*{-.15in}
+{\bf \href{http://www.notredamecollege-dhaka.com/}{Notre Dame College}}, Dhaka, Bangladesh\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Higher Secondary Certificate(HSC), Science, 2007, \textit{GPA} \textbf{5.00}/5.00
+\end{list1}
+\vspace*{-.15in}
+{\bf \href{http://www.ipscctg.edu.bd/}{Ispahani Public School and College}}, Chittagong, Bangladesh\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Secondary School Certificate(SSC), Science, 2005, \textit{GPA} \textbf{5.00}/5.00
+\end{list1}
+
+\vspace*{-.1in}
+
+\section{\sc Research Projects}
+\begin{list2}
+\item {\bf Burst Buffer File System:} Working on a collaboration project with \href{https://www.llnl.gov/}{Lawrence Livermore National Laboratory (LLNL)} for improving the performance of a burst-buffer file system (i.e. \href{https://github.com/LLNL/UnifyCR}{UnifyCR}) by enhancing the garbage collection process
+\item {\bf BeeGFS Performance Evaluation:} Serving a collaboration project with \href{https://www.llnl.gov/}{LLNL} for evaluating the performance of \href{https://www.beegfs.io/content/}{BeeGFS} parallel cluster file system using different benchmark tools (e.g. DD, IOZone and IOR)
+\item {\bf Study on LBANN:} Studying on \href{https://github.com/LLNL/lbann}{Livermore Big Artificial Neural Network (LBANN)}
+\item {\bf Specialized File System for Large Datasets of Deep Neural Network:} Assisting a collaboration project with \href{https://www.llnl.gov/}{LLNL} for designing a file system for large datasets of Deep Neural Network by studying the data shuffling mechanism in TensorFlow and Caffe
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Academic Projects}
+\begin{list2}
+\item {\bf CSE Office Management:} An integrated system for automating all the official tasks\textit{(i.e. Inventory management, Notice board, Teachers' profile, Peer-to-peer communication etc.)} of BUET CSE
+\item {\bf Network Text Editor:} A C++ application to facilitating collaborative editing in a LAN
+\item {\bf Automated Water Faucet:} A portable hardware device that can be put on any water tape to control the flow of water automatically by detecting human presence using PIR sensor for avoiding wastage
+\item {\bf Digital Watch with Timer:} A digital watch with timer developed using ATMEGA 8 Microcontroller
+\item {\bf LAN Messenger:} A software developed in Java for chatting with the contacts that are in a LAN
+\item {\bf NACHOS:} Not Another Completely Heuristic Operating System implementation developed in C++
+\item {\bf Snooker Game:} A two player Snooker game developed in C++
+\item {\bf Screensaver:} A simple screensaver developed in Assembly Language
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Undergraduate Thesis} 
+\href{https://cse.buet.ac.bd/research/group/gd/index.php?pageid=SurveillanceSystemDhaka}{\bf{Design of a Surveillance System for Dhaka City}}, \textit{\href{https://cse.buet.ac.bd/research/group/gd/index.php?pageid=Home.htm}{Graph Drawing and Information Visualization Lab}}, CSE, BUET under the supervision of \textit{\href{http://teacher.buet.ac.bd/saidurrahman/}{Dr. Md. Saidur Rahman}}
+\iffalse
+\vspace*{-.15in}
+\begin{list2}
+\item[ - ] Designed and simulated an integrated system to monitor and control the traffic system of Dhaka
+\item[ - ] Applied different shortest path algorithms(Dijkstra's algorithm, Dijkstra's algorithm in a circular or band region and A* Search) on Dhaka city map
+\item[ - ] Proposed locations for police-boxes on the prominent road-crossings of Dhaka using 2-Approximation Vertex Cover Algorithm
+\item[ - ] Proposed heuristic algorithm that can be applied on clustered map of a large area
+\end{list2}
+\fi
+\vspace*{-.1in}
+
+\section{\sc Academic Achievements} 
+\begin{list2}
+\item Champion in the Intra-Department Project Competition for the project \textit{CSE Office Management}
+\item Board Merit Scholarship, HSC Examination
+\item Board Merit Scholarship, SSC Examination
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Industry Experience}
+{\bf \href{http://www.ipvision.ca/}{IPvision Canada Inc}}, Dhaka, Bangladesh
+
+\vspace{-.4cm}
+\textbf{{\em Software Analyst}} \hfill {\bf October, 2016 - July, 2017}\\
+Worked as a member of the development team for developing the SDK of the social networking platform named \textbf{\textit{\href{https://www.ringid.com/}{ringID}}}
+
+\vspace{-.2cm}
+{\bf \href{http://www.vizrt.com/}{Vizrt}}, Dhaka, Bangladesh
+
+\vspace{-.4cm}
+\textbf{{\em Software Engineer}} \hfill {\bf July, 2014 - September, 2016}\\
+Served as a member of the \textbf{\textit{\href{http://www.vizrt.com/sports/}{Sports Solutions}}} R\&D team in Dhaka, mostly worked on \textbf{\textit{\href{http://www.vizrt.com/products/viz_libero/}{Viz Libero}}} software
+
+\vspace{-.2cm}
+{\bf \href{http://www.enosisbd.com/}{Enosis Solutions}}, Dhaka, Bangladesh
+
+\vspace{-.4cm}
+\textbf{{\em Software Engineer}} \hfill {\bf February, 2013 - June, 2014}\\
+Worked as a member of the development team for \textbf{\textit{\href{http://www.enosisbd.com/downloads/dev_engineering.pdf}{Visual-Host}}} which is an offshore SDK framework of a Computer Aided Engineering(CAE) software \textbf{\textit{\href{https://www.esi-group.com/software-solutions/virtual-integration-platform/multi-domain-simulation/visual-environment}{Visual-Environment}}}
+
+\vspace{-.2cm}
+{\bf \href{http://runnercyberlink.com/site/}{Runners Cyberlink}}, Dhaka, Bangladesh
+
+\vspace{-.4cm}
+\textbf{{\em Freelance Developer}} \hfill {\bf August, 2012 - September, 2012}\\
+Served as a part-timer for finalizing the world-wide release of an e-commerce platform \textbf{\textit{\href{http://customersdemand.com/}{Customers Demand}}}
+
+\vspace{-.2cm}
+{\bf \href{http://www.technovilla.net/}{TechnoVilla Solutions Ltd}}, Dhaka, Bangladesh
+
+\vspace{-.4cm}
+\textbf{{\em Software Engineer}} \hfill {\bf November, 2011 - June, 2012}\\
+Worked as a part-timer in the \textbf{\textit{\href{http://www.technovilla.net/web-application-development}{Web Application Development}}} team for outsourcing in various products
+
+\vspace*{-.1in}
+
+\section{\sc Technical \\Skills}
+\begin{list2}
+\item[ - ] Programming Languages: C/C\texttt{++}, Python, C\texttt{\#}, Matlab, Java, Javascript, Prolog
+\item[ - ] API LIbraries: LBANN, BSD sockets, WinSock, Opengl, Boost, Windows API
+\item[ - ] Frameworks: TensorFlow, Caffe, Qt Framework, MFC, .NET Framework, Google Test
+\item[ - ] Distributed File Systems: BurstFS, UnifyCR, BeeGFS, Lustre, Octopus
+\item[ - ] I/O Benchmark Tools: IOR, DD, IOZone
+\item[ - ] Database Management Systems: MySQL, Oracle, Web SQL, SQL Server
+\item[ - ] Design Tools: EDraw, GraphViz, Rational Rose
+\item[ - ] Documentation Tools: \LaTeX, Doxygen
+\item[ - ] Project Management Applications: Jira, Redmine, Mantis, Microsoft Project
+\item[ - ] Version Control Systems: Git, Mercurial, SVN
+\item[ - ] Operating Systems: Unix/Linux, Windows
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Community \\Work}
+{\bf \href{http://www.esab.org.bd/}{Engineering Students' Association of Bangladesh}} \\
+\textit{A common platform for all the engineering students of Bangladesh \\}
+\textbf{{\em President}} \hfill {\bf October, 2011 - November, 2013}\\
+\href{https://www.youtube.com/watch?v=2GRKcrF47gM}{Pioneered} the voluntary association along with a bunch of energetic people and served as the organizational head
+
+\vspace*{-.1in}
+
+\section{\sc Voluntary Projects}
+\begin{list2}
+\item {\bf {Gaming Application for Differently Abled Children:}} A car racing game interfaced with cycling machine for encouraging the \href{http://www.physiotherapynotes.com/2011/07/physiotherapy-exercises-types.html}{Active Range Of Motion Exercise (AROME)} for the children having weakness in \href{https://en.wikipedia.org/wiki/Quadriceps_femoris_muscle}{Quadriceps femoris muscle} being conducted in \href{http://www.bccw-bd.org/information_about.html}{Feroza Bari Disabled Children Hospital}
+\item {\bf Software for \href{http://www.research4cap.org/SitePages/Home.aspx}{ReCAP:}} A software for prioritizing the roads and highways by simulating an algorithm that is developed by \href{http://urp.buet.ac.bd/}{Department of Urban and Regional Planning}, BUET
+\end{list2}
+
+\end{resume}
+\end{document}
+
