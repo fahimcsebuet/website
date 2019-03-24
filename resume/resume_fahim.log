@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.22)  14 NOV 2018 10:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.2)  24 MAR 2019 16:53
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**resume_fahim.tex
-(./resume_fahim.tex
+**/home/fahim/Documents/website/resume/resume_fahim.tex
+(/home/fahim/Documents/website/resume/resume_fahim.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (./res.cls
@@ -247,21 +248,21 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 232.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 232.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 236.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
  ) 
 Here is how much of TeX's memory you used:
- 5459 strings out of 493029
- 78260 string characters out of 6136234
- 165874 words of memory out of 5000000
+ 5460 strings out of 493029
+ 78369 string characters out of 6136234
+ 165872 words of memory out of 5000000
  8987 multiletter control sequences out of 15000+600000
  7426 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,9n,43p,537b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,43p,574b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -271,10 +272,10 @@ dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmtt10.pfb>
-Output written on resume_fahim.pdf (3 pages, 145088 bytes).
+Output written on resume_fahim.pdf (3 pages, 146410 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
