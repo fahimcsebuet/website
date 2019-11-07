@@ -1,0 +1,137 @@
+\documentclass[margin,line]{res}
+%\usepackage{layout}
+
+%\setlength{\voffset}{0in}
+%\setlength{\headsep}{5pt}
+\usepackage{amssymb}
+\usepackage[bookmarks,bookmarksopen,bookmarksdepth=2]{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+\pagestyle{empty}
+\topmargin -0.8in
+\oddsidemargin -.7in
+\evensidemargin -.6in
+\textwidth=6.5in
+\textheight 10.5in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{Fahim Tahmid Chowdhury \vspace*{.1in}}
+
+\begin{tabular}{@{}p{2.5in}p{4in}}
+\hspace{1cm} & {\it Cell:}  (+1) 786-406-2617 \\
+\hspace{1cm} & {\it Skype:}    fahim.tahmid.chowdhury\\
+\hspace{1cm} & {\it E-mail:} \href{mailto:fchowdhu@cs.fsu.edu}{\nolinkurl{fchowdhu@cs.fsu.edu} } \\
+\hspace{1cm} & {\it LinkedIn:} \url{www.linkedin.com/in/fahimtahmidchowdhury} \\
+\end{tabular}
+
+\vspace*{-.2in}
+
+\begin{resume}
+
+\section{\sc Education}
+{\bf \href{http://www.fsu.edu}{Florida State University}}, Tallahassee, Florida\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Ph.D. Candidate, \href{http://www.cs.fsu.edu/}{Computer Science}, Currently enrolled, \textit{CGPA} \textbf{4.00}/4.00
+\end{list1}
+\vspace*{-.15in}
+{\bf \href{http://buet.ac.bd}{Bangladesh University of Engineering and Technology}}, Dhaka, Bangladesh\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Bachelor of Science, \href{http://cse.buet.ac.bd}{Computer Science and Engineering}, February 2013, \textit{CGPA} \textbf{3.54}/4.00
+\end{list1}
+
+\vspace*{-.1in}
+
+\section{\sc Research Interests}
+\begin{list2}
+\item \textbf{HPC Systems:} HPC I/O Optimization, Heterogeneous Storage Systems, Parallel File Systems, Burst Buffer File Systems, HPC Workflow, Performance Analysis
+\item \textbf{Artificial Intelligence:} Deep Learning at Scale, Reinforcement Learning
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Research Experience}
+{\bf \href{http://www.cs.fsu.edu/}{Department of Computer Science, Florida State University}}
+
+\vspace{-.4cm}
+\textbf{{\em Graduate Research Assistant}} \hfill {\bf August, 2017 - Present}\\
+- Working in \textit{\href{http://castl.cs.fsu.edu/doku.php/}{Computer Architecture and SysTems Research Lab (CASTL)}} led by \textit{\href{https://www.cs.fsu.edu/~yuw/}{Dr. Weikuan Yu}}
+
+\vspace{-.3cm}
+{\bf \href{https://computing.llnl.gov/casc}{Center for Applied Scientific Computing (CASC)}}, \href{http://www.llnl.gov/}{Lawrence Livermore National Laboratory (LLNL)}
+
+\vspace{-.4cm}
+\textbf{{\em Student Intern}} \hfill {\bf May, 2019 - August, 2019}\\
+- Worked as a summer intern in the \href{https://computing.llnl.gov/casc/data-analysis-group}{Data Analysis Group} at CASC on a project for optimizing I/O behavior in HPC workflow
+
+\vspace{-.3cm}
+{\bf \href{http://www.nersc.gov/}{National Energy Research Scientific Computing Center (NERSC)}}, \href{http://www.lbl.gov/}{Lawrence Berkeley National Laboratory (LBNL)}, Berkeley, California
+
+\vspace{-.4cm}
+\textbf{{\em Student Assistant}} \hfill {\bf May, 2018 - August, 2018}\\
+- Worked as a summer intern in the \href{http://www.nersc.gov/users/data-analytics/}{Data Analytics and Services} group at NERSC on a project for analyzing scalable data pipeline for distributed deep learning
+
+\vspace{-.3cm}
+{\bf \href{http://www.nersc.gov/}{NERSC}}, \href{http://www.lbl.gov/}{LBNL}
+
+\vspace{-.4cm}
+\textbf{{\em LBNL Affiliate}} \hfill {\bf August, 2018 - August, 2019}\\
+- Continued the summer internship project on distributed deep learning applications' data pipeline
+
+\vspace*{-.1in}
+
+\section{\sc Research Projects}
+\begin{list2}
+\item {\bf HPC Workflow I/O Optimization:} Working on a collaboration project with \href{https://www.llnl.gov/}{LLNL} for pinpointing HPC I/O issues and optimizing HPC workflow management based on the findings, e.g., DL Training I/O, Checkpoint/Restart, Producer-Consumer, etc.
+\item {\bf BeeGFS Performance Evaluation:} Serving a collaboration project with \href{https://www.llnl.gov/}{LLNL} for evaluating the performance of \href{https://www.beegfs.io/content/}{BeeGFS} parallel cluster file system using different I/O and metadata performance benchmarks, and Deep Learning applications
+\item {\bf \href{https://github.com/NERSC/DL-Parallel-IO}{Scalable Data Pipeline for Distributed Deep Learning}:} Worked on a project with \href{http://www.nersc.gov/}{NERSC} for profiling I/O in the distributed deep learning applications to explore the I/O bottlenecks, and design and implement an optimization strategy to overcome the possible bottlenecks
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Publications}
+\begin{list2}
+\item[ - ] {\bf F. Chowdhury}, F. Di Natale, A. Moody, E. Gonsiorowski, K. Mohror, and W. Yu. ``Understanding I/O Behavior in Scientific Workflows on High Performance Computing Systems," in Proceedings of the \textit{International Conference on High Performance Computing, Networking, Storage and Analysis 2019 (SC19)}, Regular Poster, Nov. 2019.
+\item[ - ] {\bf F. Chowdhury}, Y. Zhu, T. Heer, S. Paredes, A. Moody, R. Goldstone, K. Mohror, and W. Yu, ``I/O Characterization and Performance Evaluation of BeeGFS for Deep Learning," in Proceedings of the \textit{48th International Conference on Parallel Processing (ICPP 2019)}, 2019.
+\item[ - ] {\bf F. Chowdhury}, J. Liu, Q. Koziol, T. Kurth, S. Farrell, S. Byna, Prabhat, and W. Yu, ``Initial Characterization of I/O in Large-Scale Deep Learning Applications," in \textit{SC18, 3RD Joint International Workshop on Parallel Data Storage \& Data Intensive Scalable Computing Systems (PDSW-DISCS 2018)}, 2018. - Work-in-progress (WIP) Abstract
+\item[ - ] Y. Zhu, {\bf F. Chowdhury}, H. Fu, A. Moody, K. Mohror, K. Sato, and W. Yu, ``Entropy-Aware I/O Pipelining for Large-Scale Deep Learning on HPC Systems," in \textit{IEEE International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS 2018)}, 2018.
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Technical \\Skills}
+\begin{list2}
+\item[ - ] Programming Languages: {\bf C/C\texttt{++}}, {\bf Python}, C\texttt{\#}, Matlab, Java, Javascript
+\item[ - ] Libraries: {\bf MPI}, {\bf HDF5}, BSD sockets, WinSock, Opengl, Boost, Windows API, Google Test
+\item[ - ] Frameworks: {\bf TensorFlow}, {\bf Horovod}, {\bf LBANN}, Qt Framework, MFC, .NET Framework
+\item[ - ] Distributed File Systems: {\bf BeeGFS}, Lustre, BurstFS, UnifyCR
+\end{list2}
+
+\end{resume}
+\end{document}

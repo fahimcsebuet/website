@@ -1,0 +1,232 @@
+\documentclass[margin,line]{res}
+%\usepackage{layout}
+
+%\setlength{\voffset}{0in}
+%\setlength{\headsep}{5pt}
+\usepackage{amssymb}
+\usepackage[bookmarks,bookmarksopen,bookmarksdepth=2]{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+\topmargin -0.8in
+\oddsidemargin -.6in
+\evensidemargin -.5in
+\textwidth=6.35in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{Fahim Tahmid Chowdhury \vspace*{.1in}}
+
+\begin{tabular}{@{}p{2.5in}p{4in}}
+\hspace{1cm} & {\it Cell:}  (+1) 786-406-2617 \\
+\hspace{1cm} & {\it Skype:}    fahim.tahmid.chowdhury\\
+\hspace{1cm} & {\it E-mail:} \href{mailto:fchowdhu@cs.fsu.edu}{\nolinkurl{fchowdhu@cs.fsu.edu} } \\
+\hspace{1cm} & {\it LinkedIn:} \url{www.linkedin.com/in/fahimtahmidchowdhury} \\
+\end{tabular}
+
+\vspace*{-.2in}
+
+\begin{resume}
+
+\section{\sc Education}
+{\bf \href{http://www.fsu.edu}{Florida State University}}, Tallahassee, Florida\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Ph.D. Candidate, \href{http://www.cs.fsu.edu/}{Computer Science}, Currently studying, \textit{CGPA} \textbf{4.00}/4.00
+\end{list1}
+\vspace*{-.15in}
+{\bf \href{http://buet.ac.bd}{Bangladesh University of Engineering and Technology}}, Dhaka, Bangladesh\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Bachelor of Science, \href{http://cse.buet.ac.bd}{Computer Science and Engineering}, February 2013, \textit{CGPA} \textbf{3.54}/4.00
+\end{list1}
+
+\vspace*{-.1in}
+
+\section{\sc Research Interests}
+\begin{list2}
+\item \textbf{HPC Systems:} HPC I/O Optimization, Heterogeneous Storage Systems, Parallel File Systems, Burst Buffer File Systems, HPC Workflow, Performance Analysis
+\item \textbf{Artificial Intelligence:} Deep Learning at Scale, Reinforcement Learning
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Research Experience}
+{\bf \href{http://www.cs.fsu.edu/}{Department of Computer Science, Florida State University}}, Tallahassee, Florida
+
+\vspace{-.4cm}
+\textbf{{\em Graduate Research Assistant}} \hfill {\bf August, 2017 - Present}\\
+Working in \textbf{\textit{\href{http://castl.cs.fsu.edu/doku.php/}{Computer Architecture and SysTems Research Lab (CASTL)}}} under the supervision of \textit{\href{https://www.cs.fsu.edu/~yuw/}{Professor Dr. Weikuan Yu}}
+
+\vspace{-.2cm}
+
+{\bf \href{https://computing.llnl.gov/casc}{Center for Applied Scientific Computing (CASC)}}, \href{http://www.llnl.gov/}{Lawrence Livermore National Laboratory (LLNL)}, Livermore, California
+
+\vspace{-.4cm}
+\textbf{{\em Student Intern}} \hfill {\bf May, 2019 - August, 2019}\\
+Worked as a summer intern in the \href{https://computing.llnl.gov/casc/data-analysis-group}{Data Analysis Group} at CASC on a project for optimizing I/O behavior in HPC workflow
+
+\vspace{-.2cm}
+{\bf \href{http://www.nersc.gov/}{National Energy Research Scientific Computing Center (NERSC)}}, \href{http://www.lbl.gov/}{Lawrence Berkeley National Laboratory (LBNL)}, Berkeley, California
+
+\vspace{-.4cm}
+\textbf{{\em Student Assistant}} \hfill {\bf May, 2018 - August, 2018}\\
+Worked as a summer intern in the \href{http://www.nersc.gov/users/data-analytics/}{Data Analytics and Services} group at NERSC on a project for analyzing scalable data pipeline for distributed deep learning
+
+\vspace{-.2cm}
+{\bf \href{http://www.nersc.gov/}{NERSC}}, \href{http://www.lbl.gov/}{LBNL}, Berkeley, California
+
+\vspace{-.4cm}
+\textbf{{\em LBNL Affiliate}} \hfill {\bf August, 2018 - August, 2019}\\
+Continued the summer internship project on distributed deep learning applications' data pipeline
+
+\vspace*{-.1in}
+
+\section{\sc Publications}
+\begin{list2}
+\item[ - ] {\bf F. Chowdhury}, F. Di Natale, A. Moody, E. Gonsiorowski, K. Mohror, and W. Yu. ``Understanding I/O Behavior in Scientific Workflows on High Performance Computing Systems," in Proceedings of the \textit{International Conference on High Performance Computing, Networking, Storage and Analysis 2019 (SC19)}, Regular Poster, Nov. 2019.
+\item[ - ] {\bf F. Chowdhury}, Y. Zhu, T. Heer, S. Paredes, A. Moody, R. Goldstone, K. Mohror, and W. Yu, ``I/O Characterization and Performance Evaluation of BeeGFS for Deep Learning," in Proceedings of the \textit{48th International Conference on Parallel Processing (ICPP 2019)}, 2019. ACM, New York, NY, USA, Article 80, 10 pages. DOI: https://doi.org/10.1145/3337821.3337902
+\item[ - ] {\bf F. Chowdhury}, J. Liu, Q. Koziol, T. Kurth, S. Farrell, S. Byna, Prabhat, and W. Yu, ``Initial Characterization of I/O in Large-Scale Deep Learning Applications," in \textit{SC18, 3RD Joint International Workshop on Parallel Data Storage \& Data Intensive Scalable Computing Systems (PDSW-DISCS 2018)}, 2018. - Work-in-progress (WIP) Abstract
+\item[ - ] Y. Zhu, {\bf F. Chowdhury}, H. Fu, A. Moody, K. Mohror, K. Sato, and W. Yu, ``Entropy-Aware I/O Pipelining for Large-Scale Deep Learning on HPC Systems," in \textit{IEEE International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS 2018)}, 2018.
+\item[ - ] Y. Zhu, {\bf F. Chowdhury}, H. Fu, A. Moody, K. Mohror, K. Sato, and W. Yu. ``Multi-Client DeepIO for Large-Scale Deep Learning on HPC Systems," in Proceedings of the \textit{International Conference on High Performance Computing, Networking, Storage and Analysis 2018 (SC18)}, Regular Poster, Nov. 2018.
+
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Technical \\Skills}
+\begin{list2}
+\item[ - ] Programming Languages: {\bf C/C\texttt{++}}, {\bf Python}, C\texttt{\#}, Matlab, Java, Javascript
+\item[ - ] Libraries: {\bf MPI}, {\bf HDF5}, BSD sockets, WinSock, Opengl, Boost, Windows API, Google Test
+\item[ - ] Frameworks: {\bf TensorFlow}, {\bf Horovod}, {\bf LBANN}, Qt Framework, MFC, .NET Framework
+\item[ - ] Distributed File Systems: BurstFS, {\bf UnifyCR}, {\bf BeeGFS}, Lustre, Octopus
+\item[ - ] I/O Benchmark Tools: IOR, MDTest, DD, IOZone, Bonnie++
+\item[ - ] Profiling Tools: {\bf Darshan}, {\bf TensorFlow Timeline}
+\item[ - ] Database Management Systems: MySQL, Oracle, SQL Server
+\item[ - ] Design Tools: EDraw, GraphViz, Rational Rose
+\item[ - ] Documentation Tools: \LaTeX, Doxygen
+\item[ - ] Project Management Applications: Jira, Redmine, Mantis, Microsoft Project
+\item[ - ] Version Control Systems: Git, Mercurial, SVN
+\item[ - ] Operating Systems: Unix/Linux, Windows
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Research Projects}
+\begin{list2}
+\item {\bf HPC Workflow I/O Optimization:} Working on a collaboration project with \href{https://www.llnl.gov/}{LLNL} for pinpointing HPC I/O issues and optimizing HPC workflow management based on the findings, e.g., DL Training I/O, Checkpoint/Restart, Producer-Consumer, etc.
+\item {\bf BeeGFS Performance Evaluation:} Serving a collaboration project with \href{https://www.llnl.gov/}{LLNL} for evaluating the performance of \href{https://www.beegfs.io/content/}{BeeGFS} parallel cluster file system using different I/O and metadata performance benchmarks, and Deep Learning applications
+\item {\bf Burst Buffer File System:} Working on a project for enhancing a burst-buffer file system (i.e. \href{https://github.com/LLNL/UnifyCR}{UnifyCR}) by adding an improved Garbage Collection module.
+\item {\bf Specialized File System for Large Datasets of Deep Neural Network:} Assisting a collaboration project with \href{https://www.llnl.gov/}{LLNL} for designing a file system for large datasets of Deep Neural Network by studying the data shuffling mechanism in TensorFlow and Caffe
+\item {\bf \href{https://github.com/NERSC/DL-Parallel-IO}{Scalable Data Pipeline for Distributed Deep Learning}:} Worked on a project with \href{http://www.nersc.gov/}{NERSC} for profiling I/O in the distributed deep learning applications to explore the I/O bottlenecks, and design and implement an optimization strategy to overcome the possible bottlenecks
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Industry Experience}
+{\bf \href{http://www.ipvision.ca/}{IPvision Canada Inc}}, Dhaka, Bangladesh
+
+\vspace{-.4cm}
+\textbf{{\em Software Analyst}} \hfill {\bf October, 2016 - July, 2017}\\
+Worked as a member of the development team for developing the SDK of the social networking platform named \textbf{\textit{\href{https://www.ringid.com/}{ringID}}}
+
+\vspace{-.2cm}
+{\bf \href{http://www.vizrt.com/}{Vizrt}}, Dhaka, Bangladesh
+
+\vspace{-.4cm}
+\textbf{{\em Software Engineer}} \hfill {\bf July, 2014 - September, 2016}\\
+Served as a member of the \textbf{\textit{\href{http://www.vizrt.com/sports/}{Sports Solutions}}} R\&D team in Dhaka, mostly worked on \textbf{\textit{\href{http://www.vizrt.com/products/viz_libero/}{Viz Libero}}} software
+
+\vspace{-.2cm}
+{\bf \href{http://www.enosisbd.com/}{Enosis Solutions}}, Dhaka, Bangladesh
+
+\vspace{-.4cm}
+\textbf{{\em Software Engineer}} \hfill {\bf February, 2013 - June, 2014}\\
+Worked as a member of the development team for \textbf{\textit{\href{http://www.enosisbd.com/downloads/dev_engineering.pdf}{Visual-Host}}} which is an offshore SDK framework of a Computer Aided Engineering(CAE) software \textbf{\textit{\href{https://www.esi-group.com/software-solutions/virtual-integration-platform/multi-domain-simulation/visual-environment}{Visual-Environment}}}
+
+\vspace*{-.1in}
+
+\section{\sc Undergraduate Thesis} 
+\href{https://cse.buet.ac.bd/research/group/gd/index.php?pageid=SurveillanceSystemDhaka}{\bf{Design of a Surveillance System for Dhaka City}}, \textit{\href{https://cse.buet.ac.bd/research/group/gd/index.php?pageid=Home.htm}{Graph Drawing and Information Visualization Lab}}, CSE, BUET under the supervision of \textit{\href{http://teacher.buet.ac.bd/saidurrahman/}{Dr. Md. Saidur Rahman}}
+
+\begin{list2}
+\item[ - ] Designed and simulated an integrated system to monitor and control the traffic system of Dhaka
+\item[ - ] Applied different shortest path algorithms on Dhaka city map
+\item[ - ] Proposed locations for police-boxes on the prominent road-crossings of Dhaka using 2-Approximation Vertex Cover Algorithm
+\item[ - ] Proposed heuristic algorithm that can be applied on clustered map of a large area
+\end{list2}
+\vspace*{-.1in}
+
+\section{\sc Academic Projects}
+\begin{list2}
+\item {\bf F2PUnifyCR:} A Flash-friendly Persistent Burst-Buffer File System implemented on top of UnifyCR
+\item {\bf Network Text Editor:} A C++ application to facilitating collaborative editing in a LAN
+\item {\bf CSE Office Management:} An integrated system for automating all the official tasks (i.e. Inventory management, Notice board, Teachers' profile, Peer-to-peer communication etc.) of BUET CSE
+\item {\bf micro-C Compiler:} A simple compiler implementation for C-like programming language (i.e. micro-C)
+\item {\bf Automated Water Faucet:} A portable hardware device that can be put on any water tape to control the flow of water automatically by detecting human presence using PIR sensor for avoiding wastage
+\item {\bf Digital Watch with Timer:} A digital watch with timer developed using ATMEGA 8 Microcontroller
+\item {\bf LAN Messenger:} A software developed in Java for chatting with the contacts that are in a LAN
+\item {\bf NACHOS:} Not Another Completely Heuristic Operating System implementation developed in C++
+\item {\bf Snooker Game:} A two player Snooker game developed in C++
+\item {\bf Screensaver:} A simple screensaver developed in Assembly Language
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Voluntary Experience}
+\begin{list2}
+\item {\bf {Student Volunteer at \href{https://sc18.supercomputing.org/}{SC'18}:}} Worked as a student volunteer at the SC'18 (SuperComputing) Conference, the International Conference for High Performance Computing, Networking, Storage, and Analysis in Dallas, Texas, USA, November, 2018.
+\item {\bf {Gaming Application for Differently Abled Children:}} A car racing game interfaced with cycling machine for encouraging the \href{http://www.physiotherapynotes.com/2011/07/physiotherapy-exercises-types.html}{Active Range Of Motion Exercise (AROME)} for the children having weakness in \href{https://en.wikipedia.org/wiki/Quadriceps_femoris_muscle}{Quadriceps femoris muscle} being conducted in \href{http://www.bccw-bd.org/information_about.html}{Feroza Bari Disabled Children Hospital}
+\item {\bf Software for \href{http://www.research4cap.org/SitePages/Home.aspx}{ReCAP:}} A software for prioritizing the roads and highways by simulating an algorithm that is developed by \href{http://urp.buet.ac.bd/}{Department of Urban and Regional Planning}, BUET
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc Community \\Work}
+{\bf \href{http://www.esab.org.bd/}{Engineering Students' Association of Bangladesh}} \\
+\textit{A common platform for all the engineering students of Bangladesh \\}
+\textbf{{\em President}} \hfill {\bf October, 2011 - November, 2013}\\
+\href{https://www.youtube.com/watch?v=2GRKcrF47gM}{Pioneered} the voluntary association along with a bunch of energetic people and served as the organizational head
+
+\vspace*{-.1in}
+
+\section{\sc Scholarships and Awards}
+\begin{list2}
+%\item Travel Grant from LLNL for attending the 48th International Conference on Parallel Processing (ICPP 2019) in Kyoto, Japan, August, 2019.
+\item Student Volunteer Program Scholarship for attending the SC'18 (SuperComputing) Conference, the International Conference for High Performance Computing, Networking, Storage, and Analysis in Dallas, Texas, USA, November, 2018.
+\item Champion in the Intra-Department Project Competition for the project \textit{CSE Office Management}
+\item Board Merit Scholarship, HSC Examination
+\item Board Merit Scholarship, SSC Examination
+\end{list2}
+
+\vspace*{-.1in}
+
+\section{\sc References} 
+Available upon request
+
+\end{resume}
+\end{document}
